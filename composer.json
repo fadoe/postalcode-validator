@@ -1,0 +1,22 @@
+{
+    "name": "fadoe/postalcode-validator",
+    "description": "Validates postal code",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Falk Doering",
+            "email": "falk.doering@fadoe.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FaDoe\\PostalCodeValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FaDoe\\PostalCodeValidatorTest\\": "tests/"
+        }
+    }
+}
