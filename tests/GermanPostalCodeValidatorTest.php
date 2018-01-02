@@ -33,6 +33,9 @@ class GermanPostalCodeValidatorTest extends TestCase
             [ '99999', true ],
             [ '100000', false ],
             [ '1000', false ],
+            [ '03222', true ],
+            [ '07000', true ],
+            [ '99000', true ],
         ];
     }
 }
